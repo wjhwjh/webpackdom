@@ -1,0 +1,16 @@
+webpack
+npm install <npmName> 默认生产环境
+npn install --save <npmName>
+npn install --save-dev <npmName>
+npm install --global  <npmName> 
+
+--save 生产环境依赖
+--save-dev 开发环境依赖
+--global 全局安装
+
+卸载安装包
+npn uninstall <npmName>
+
+.gitignore 忽略文件
+
+
