@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "vue": "^3.2.31",
+    "vue-cli": "^2.9.6",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
   },
