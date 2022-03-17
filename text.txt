@@ -13,4 +13,6 @@ npn uninstall <npmName>
 
 .gitignore 忽略文件
 
-
+https://www.cnblogs.com/inaruto/p/11168588.html
+http://blog.sina.com.cn/s/blog_bb5a48430102w9j3.html
+https://zhuanlan.zhihu.com/p/111014448
