@@ -6,7 +6,8 @@ module.exports = {
       print:'./src/js/unit.js'},
   output: {
     filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    clean: true, // 每次构建之前先清空dist文件npm info webpack
   },
   module:{
       rules:[
@@ -32,7 +33,7 @@ module.exports = {
   // 插件是依赖模块
   plugins:[
     new HtmlWebpackPlugin({
-        title:'管理输出'
+        template:'./src/index.html'
     })
   ]
 };
