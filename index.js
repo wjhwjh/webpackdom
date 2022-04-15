@@ -1,7 +1,7 @@
 //import _ from 'lodash'
 // 模块管理
-import './src/base.css'
-import icon from './src/icon.png'
+import './src/css/base.css'
+import icon from './src/image/icon.png'
 import {print} from './src/js/unit.js'
 function component() {
     let element = document.createElement('div');
@@ -20,4 +20,4 @@ function component() {
     return element;
   }
   
-  document.body.appendChild(component());
+  //document.body.appendChild(component());
