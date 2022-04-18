@@ -2,3 +2,14 @@ body{
     font-size: 40px;
     color: #f00;
 }
+.icon1{
+ width: 80px;
+ height: 80px;
+ margin-bottom: 5px;   
+ background: url('../image/icon.png') no-repeat;
+}
+.icon2{
+    width: 80px;
+    height: 80px;   
+    background: url('../image/chat-icon2-1.png') no-repeat;
+}
